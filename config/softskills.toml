@@ -1,0 +1,26 @@
+############### Section config ##################
+#################################################
+title = "Soft Skills"
+enabled = true # true
+
+################ Skills #########################
+#################################################
+[[skills]]
+title = "Fast Learning"
+icon = "./config/assets/icons/bolt.svg"
+text = "I have the ability to acquire new knowledge quickly and adapt to changing technological environments."
+
+[[skills]]
+title = "Teamwork"
+icon = "./config/assets/icons/user.svg"
+text = "I collaborate effectively on multidisciplinary projects and communicate clearly with team members."
+
+[[skills]]
+title = "Problem Solving"
+icon = "./config/assets/icons/gear.svg"
+text = "I am creative and efficient in identifying and solving technical problems."
+
+[[skills]]
+title = "Effective Communication"
+icon = "./config/assets/icons/comment.svg"
+text = "I have the ability to convey ideas clearly and concisely, both technically and non-technically."

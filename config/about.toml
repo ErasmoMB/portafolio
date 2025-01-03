@@ -1,0 +1,10 @@
+name = "Erasmo Montufar"
+rol = "Full Stack Developer"
+email = "montufarbe@gmail.com"
+phone = "+51 968 111 314"
+birthday = "April 16, 2002"
+location = "Lima, Peru"
+avatar = "./config/assets/avatars/my-avatar.png"  # Make sure to have your avatar at this path
+username = "erasmomontufar"  # <-- your GitHub username
+googlemaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.9515285273173!2d-77.08440039238978!3d-12.005108056545787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cece0cf186ed%3A0xf22fc64f35ae63d!2sUniversidad%20de%20Ciencias%20y%20Humanidades!5e0!3m2!1sen!2spe!4v1697042299645!5m2!1sen!2spe"
+presentation = """I am a Junior Full Stack Developer with 1 year of experience in backend and frontend development, with a particular focus on Python. I have experience in developing dynamic and user-friendly applications using Flask, React, and MongoDB. I also have experience in consuming and integrating APIs to create innovative solutions. Passionate about process automation to improve efficiency and committed to teamwork and problem-solving to contribute to innovative projects."""

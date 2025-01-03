@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--meta-->
+  <title>Erasmo Montufar | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I am a Junior Full Stack Developer with 1 year of experience in backend and frontend development, with a particular focus on Python. I have experience in developing dynamic and user-friendly applications using Flask, React, and MongoDB. I also have experience in consuming and integrating APIs to create innovative solutions. Passionate about process automation to improve efficiency and committed to teamwork and problem-solving to contribute to innovative projects.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="product">
+  <meta property="og:url" content="https://erasmomontufar.github.io">
+  <meta property="og:title" content="Erasmo Montufar | Full Stack Developer | Portfolio">
+  <meta property="og:description" content="I am a Junior Full Stack Developer with 1 year of experience in backend and frontend development, with a particular focus on Python. I have experience in developing dynamic and user-friendly applications using Flask, React, and MongoDB. I also have experience in consuming and integrating APIs to create innovative solutions. Passionate about process automation to improve efficiency and committed to teamwork and problem-solving to contribute to innovative projects.">
+  <meta property="og:image" content="./config/assets/avatars/my-avatar.png">
+  <meta property="og:image:secure_url" content="./config/assets/avatars/my-avatar.png">
+  <meta property="og:site_name" content="Erasmo Montufar | Full Stack Developer | Portfolio">
+  <meta name="twitter:card" content="photo">
+  <meta name="twitter:creator" content="@erasmomontufar">
+  <meta name="twitter:title" content="Erasmo Montufar | Full Stack Developer | Portfolio">
+  <meta name="twitter:description" content="I am a Junior Full Stack Developer with 1 year of experience in backend and frontend development, with a particular focus on Python. I have experience in developing dynamic and user-friendly applications using Flask, React, and MongoDB. I also have experience in consuming and integrating APIs to create innovative solutions. Passionate about process automation to improve efficiency and committed to teamwork and problem-solving to contribute to innovative projects.">
+  <meta name="twitter:image" content="./config/assets/avatars/my-avatar.png">
+  <meta name="twitter:image:width" content="200">
+  <meta name="twitter:image:height" content="200">
+  <meta name="keywords" content="Erasmo Montufar, python, react, mongodb, aws" />
+  <link href="https://erasmomontufar.github.io" rel="canonical">
+  <!--meta-->
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./src/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./src/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <!-- sidebar.jinja -->
+<aside class="sidebar" data-sidebar>
+
+  <div class="sidebar-info">
+
+    <figure class="avatar-box">
+      <img src="./config/assets/avatars/my-avatar.png" alt="Erasmo Montufar" width="80">
+    </figure>
+
+    <div class="info-content">
+      <h1 class="name" title="Erasmo Montufar">Erasmo Montufar</h1>
+
+      <p class="title">Full Stack Developer</p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+
+  </div>
+
+  <div class="sidebar-info_more">
+
+    <div class="separator"></div>
+
+    <ul class="contacts-list">
+
+      <li class="contact-item">
+
+        <div class="icon-box">
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Email</p>
+
+          <p class="contact-link">montufarbe@gmail.com</p>
+        </div>
+
+      </li>
+
+      <li class="contact-item">
+
+        <div class="icon-box">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Phone</p>
+
+          <p class="contact-link">+51 968 111 314</p>
+        </div>
+
+      </li>
+
+      <li class="contact-item">
+
+        <div class="icon-box">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Birthday</p>
+
+          <time datetime="April 16, 2002">April 16, 2002</time>
+        </div>
+
+      </li>
+
+      <li class="contact-item">
+
+        <div class="icon-box">
+          <ion-icon name="location-outline"></ion-icon>
+        </div>
+
+        <div class="contact-info">
+          <p class="contact-title">Location</p>
+
+          <address>Lima, Peru</address>
+        </div>
+
+      </li>
+
+    </ul>
+
+    <div class="separator"></div>
+
+    <ul class="social-list">
+
+      
+      <li class="social-item">
+        <a href="https://www.linkedin.com/" class="social-link" , target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+      
+      <li class="social-item">
+        <a href="https://github.com/ivansaul" class="social-link" , target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </li>
+      
+
+    </ul>
+
+  </div>
+
+</aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <!-- navbar.jinja -->
+<nav class="navbar">
+
+  <ul class="navbar-list">
+
+    <li class="navbar-item">
+      <button class="navbar-link  active" data-nav-link>About</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Resume</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Portfolio</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Blog</button>
+    </li>
+
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Contact</button>
+    </li>
+
+  </ul>
+
+</nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <!-- about.jinja -->
+<article class="about  active" data-page="about">
+
+  <header>
+    <h2 class="h2 article-title">About me</h2>
+  </header>
+
+  <section class="about-text">
+
+    
+    
+    <p>I am a Junior Full Stack Developer with 1 year of experience in backend and frontend development, with a particular focus on Python. I have experience in developing dynamic and user-friendly applications using Flask, React, and MongoDB. I also have experience in consuming and integrating APIs to create innovative solutions. Passionate about process automation to improve efficiency and committed to teamwork and problem-solving to contribute to innovative projects.</p>
+    
+    
+
+  </section>
+
+
+  <!--
+          - service
+        -->
+
+  <section class="service">
+
+    <h3 class="h3 service-title">What i'm doing</h3>
+
+    <ul class="service-list">
+      
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./config/assets/icons/code.png" alt="design icon" width="30" height="30">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Full Stack Development</h4>
+
+          <p class="service-item-text">
+            I currently work as a Full Stack developer, managing both the frontend and backend.
+          </p>
+        </div>
+
+      </li>
+
+      
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./config/assets/icons/apirest.png" alt="design icon" width="30" height="30">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">API consumption</h4>
+
+          <p class="service-item-text">
+            I have experience in consuming and managing APIs, which allows me to integrate web applications with external services efficiently.
+          </p>
+        </div>
+
+      </li>
+
+      
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./config/assets/icons/ia.png" alt="design icon" width="30" height="30">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+          <p class="service-item-text">
+            I specialize in Python for artificial intelligence solutions, including virtual assistants and machine learning.
+          </p>
+        </div>
+
+      </li>
+
+      
+
+      <li class="service-item">
+
+        <div class="service-icon-box">
+          <img src="./config/assets/icons/hacking.png" alt="design icon" width="30" height="30">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Cybersecurity with Python</h4>
+
+          <p class="service-item-text">
+            Estoy ampliando mis conocimientos en ciberseguridad, enfocado en el uso de Python para proteger aplicaciones y sistemas.
+          </p>
+        </div>
+
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+
+
+  <!--
+          - testimonials
+        -->
+  
+  <section class="testimonials">
+
+    <h3 class="h3 testimonials-title">Soft Skills</h3>
+
+    <ul class="testimonials-list has-scrollbar">
+      
+
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+
+          <figure class="testimonials-avatar-box">
+            <img src="./config/assets/icons/bolt.svg" alt="Fast Learning" width="60" data-testimonials-avatar>
+          </figure>
+
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Fast Learning</h4>
+
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              I have the ability to acquire new knowledge quickly and adapt to changing technological environments.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      
+
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+
+          <figure class="testimonials-avatar-box">
+            <img src="./config/assets/icons/user.svg" alt="Teamwork" width="60" data-testimonials-avatar>
+          </figure>
+
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Teamwork</h4>
+
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              I collaborate effectively on multidisciplinary projects and communicate clearly with team members.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      
+
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+
+          <figure class="testimonials-avatar-box">
+            <img src="./config/assets/icons/gear.svg" alt="Problem Solving" width="60" data-testimonials-avatar>
+          </figure>
+
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Problem Solving</h4>
+
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              I am creative and efficient in identifying and solving technical problems.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      
+
+      <li class="testimonials-item">
+        <div class="content-card" data-testimonials-item>
+
+          <figure class="testimonials-avatar-box">
+            <img src="./config/assets/icons/comment.svg" alt="Effective Communication" width="60" data-testimonials-avatar>
+          </figure>
+
+          <h4 class="h4 testimonials-item-title" data-testimonials-title>Effective Communication</h4>
+
+          <div class="testimonials-text" data-testimonials-text>
+            <p>
+              I have the ability to convey ideas clearly and concisely, both technically and non-technically.
+            </p>
+          </div>
+
+        </div>
+      </li>
+
+      
+
+      < </ul>
+
+  </section>
+
+
+
+  <!--
+          - testimonials modal
+        -->
+
+  <div class="modal-container" data-modal-container>
+
+    <div class="overlay" data-overlay></div>
+
+    <section class="testimonials-modal">
+
+      <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="modal-img-wrapper">
+        <figure class="modal-avatar-box">
+          <img src="./src/images/avatar-1.png" alt="Erasmo Montufar" width="80" data-modal-img>
+        </figure>
+
+        <img src="./src/images/icon-quote.svg" alt="quote icon">
+      </div>
+
+      <div class="modal-content">
+
+        <h4 class="h3 modal-title" data-modal-title>Erasmo Montufar</h4>
+
+        
+
+        <div data-modal-text>
+          <p>
+            
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <!--
+          - clients
+        -->
+  
+  <section class="clients">
+
+    <h3 class="h3 clients-title">Technological Experience</h3>
+
+    <ul class="clients-list has-scrollbar">
+      
+
+      <li class="clients-item">
+        <a href="#">
+          <img src="./config/assets/icons/python.svg" alt="client logo" width="50" height="50">
+        </a>
+      </li>
+
+      
+
+      <li class="clients-item">
+        <a href="#">
+          <img src="./config/assets/icons/react.png" alt="client logo" width="50" height="50">
+        </a>
+      </li>
+
+      
+
+      <li class="clients-item">
+        <a href="#">
+          <img src="./config/assets/icons/mongodb.svg" alt="client logo" width="50" height="50">
+        </a>
+      </li>
+
+      
+
+      <li class="clients-item">
+        <a href="#">
+          <img src="./config/assets/icons/aws.png" alt="client logo" width="50" height="50">
+        </a>
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+  
+
+</article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <!-- resume.jinja -->
+<article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Full Stack Developer with JavaScript</h4>
+
+        <span>August 2022 — August 2023</span>
+
+        <p class="timeline-text">
+          Completed a comprehensive Full Stack Development course with JavaScript through Platzi, covering both frontend and backend web development.
+        </p>
+
+      </li>
+
+      
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Bachelor's Degree in Systems Engineering and Computer Science</h4>
+
+        <span>2020 — Present</span>
+
+        <p class="timeline-text">
+          Universidad de Ciencias y Humanidades (UCH) – Lima, Peru. Current 9th semester student, Top 10%.
+        </p>
+
+      </li>
+
+      
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Junior Full Stack Developer at Promolider Org Sac</h4>
+
+        <span>February 2024 — April 2024</span>
+
+        <p class="timeline-text">
+          Designed and developed a chatbot interface in Figma, integrating it into an existing website using Vue.js, ensuring design consistency and interactive functionality. Debugged critical errors in the Laravel and Vue.js codebase of the website, improving overall stability and user experience. Configured RESTful routes in Laravel and developed Vue.js components to optimize chatbot integration with the backend.
+        </p>
+
+      </li>
+
+      
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Freelance Python Developer at Wasiiki Inversiones</h4>
+
+        <span>August 2024 — November 2024</span>
+
+        <p class="timeline-text">
+          Developed an automated system to analyze and classify PDF documents, reducing manual review time by 95% and allowing the analysis of two months' worth of documents in just 3 hours. Improved document relevance identification, reducing errors by 80% through the application of AI-based filters.
+        </p>
+
+      </li>
+
+      
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">Junior Full Stack Developer at UCH</h4>
+
+        <span>April 2024 — December 2024</span>
+
+        <p class="timeline-text">
+          Developed the backend and frontend of an internal project using Python, Flask, React, MongoDB Atlas, and AWS, creating an integrated solution for visualizing and managing research data. Designed and implemented RESTful APIs with Flask for data management and developed dynamic frontend interfaces using React, enabling smooth interaction with the backend. Integrated the Scopus API, creating an interactive slider to dynamically display researcher data, enhancing data visualization and accessibility.
+        </p>
+
+      </li>
+
+      
+
+    </ol>
+
+  </section>
+
+  <!-- Languages -->
+  
+  <section class="skill">
+
+    <h3 class="h3 skills-title">Languages</h3>
+
+    <ul class="skills-list content-card">
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Spanish</h5>
+          
+          <data value="100">100%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">English</h5>
+          
+          <data value="30">30%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 30%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+  <br>
+  
+
+
+  <!-- My Skills -->
+
+  
+  <section class="skill">
+
+    <h3 class="h3 skills-title">My Skills</h3>
+
+    <ul class="skills-list content-card">
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Web Development</h5>
+          
+          <data value="100">100%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 100%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">API Consumption</h5>
+          
+          <data value="85">85%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python</h5>
+          
+          <data value="80">80%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Full Stack Development</h5>
+          
+          <data value="80">80%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">React</h5>
+          
+          <data value="75">75%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Artificial Intelligence</h5>
+          
+          <data value="70">70%</data>
+          
+        </div>
+        
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+        
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+  
+
+</article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <!-- portfolio.jinja -->
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      
+      <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+      </li>
+      
+      <li class="filter-item">
+        <button data-filter-btn>Cybersecurity</button>
+      </li>
+      
+      <li class="filter-item">
+        <button data-filter-btn>Web Development</button>
+      </li>
+      
+      <li class="filter-item">
+        <button data-filter-btn>Artificial Intelligence</button>
+      </li>
+      
+      <li class="filter-item">
+        <button data-filter-btn>RESTful APIs</button>
+      </li>
+      
+
+    </ul>
+
+    <div class="filter-select-box">
+
+      <button class="filter-select" data-select>
+
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+
+      </button>
+
+      <ul class="select-list">
+
+        <li class="select-item">
+          <button data-select-item>All</button>
+        </li>
+
+        
+        <li class="select-item">
+          <button data-select-item>Applications</button>
+        </li>
+        
+        <li class="select-item">
+          <button data-select-item>Cybersecurity</button>
+        </li>
+        
+        <li class="select-item">
+          <button data-select-item>Web Development</button>
+        </li>
+        
+        <li class="select-item">
+          <button data-select-item>Artificial Intelligence</button>
+        </li>
+        
+        <li class="select-item">
+          <button data-select-item>RESTful APIs</button>
+        </li>
+        
+
+      </ul>
+
+    </div>
+
+    <ul class="project-list">
+
+      
+
+      <li class="project-item  active" data-filter-item data-category="web development">
+        <a href="https://github.com/ErasmoMontufar/intilab_researcher_slider" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="https://imgur.com/2nNXhDN.png" alt="INTILAB Researcher Slider" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">INTILAB Researcher Slider</h3>
+
+          <p class="project-category">Web Development</p>
+
+        </a>
+      </li>
+
+      
+
+      <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+        <a href="https://github.com/ErasmoMontufar/virtual_assistant_ai" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="https://imgur.com/kyHrBGk.png" alt="Smart Vision Virtual Assistant" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Smart Vision Virtual Assistant</h3>
+
+          <p class="project-category">Artificial Intelligence</p>
+
+        </a>
+      </li>
+
+      
+
+      <li class="project-item  active" data-filter-item data-category="cybersecurity">
+        <a href="https://github.com/ErasmoMontufar/crud_flask_mongodb" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="https://imgur.com/7110Lj1.png" alt="CRUD System with Flask and MongoDB" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">CRUD System with Flask and MongoDB</h3>
+
+          <p class="project-category">Cybersecurity</p>
+
+        </a>
+      </li>
+
+      
+
+      <li class="project-item  active" data-filter-item data-category="restful apis">
+        <a href="https://github.com/ErasmoMontufar/finance_web_app" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./config/assets/projects/project-1.jpg" alt="Finance Web Application" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Finance Web Application</h3>
+
+          <p class="project-category">RESTful APIs</p>
+
+        </a>
+      </li>
+
+      
+
+      <li class="project-item  active" data-filter-item data-category="applications">
+        <a href="https://github.com/ErasmoMontufar/task_manager_app" target="_blank">
+
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+
+            <img src="./config/assets/projects/project-8.jpg" alt="Task Management System" loading="lazy">
+          </figure>
+
+          <h3 class="project-title">Task Management System</h3>
+
+          <p class="project-category">Applications</p>
+
+        </a>
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- blog.jinja -->
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://medium.com" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/investigacion-1.jpg" alt="Research Conferences in 2024" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Research</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-07-10">Jul 10, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Research Conferences in 2024</h3>
+
+            <p class="blog-text">
+              Exploring the latest advances in technology and applied science.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://dev.to" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/desarrollo-1.jpg" alt="Best Tools for Developers" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Development</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-07-15">Jul 15, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Best Tools for Developers</h3>
+
+            <p class="blog-text">
+              Discover the essential tools to boost productivity in software development.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://hashnode.com" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/vision-artificial-1.jpg" alt="Latest Trends in Computer Vision" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Computer Vision</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-08-01">Aug 01, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Latest Trends in Computer Vision</h3>
+
+            <p class="blog-text">
+              An in-depth analysis of modern applications of computer vision across various industries.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://dev.to" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/reconocimiento-voz-1.jpg" alt="Voice Interactions of the Week" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Voice Recognition</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-08-05">Aug 05, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Voice Interactions of the Week</h3>
+
+            <p class="blog-text">
+              Exploring how voice recognition technology is transforming user interaction.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://medium.com" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/investigacion-2.jpg" alt="The Forgotten Art of Optimization" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Research</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-08-10">Aug 10, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">The Forgotten Art of Optimization</h3>
+
+            <p class="blog-text">
+              Strategies to optimize systems and resources in advanced technological projects.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+      <li class="blog-post-item">
+        <a href="https://hashnode.com" target="_blank">
+
+          <figure class="blog-banner-box">
+            <img src="./config/assets/posts/desarrollo-2.jpg" alt="Development Digest #79" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Development</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-08-15">Aug 15, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Development Digest #79</h3>
+
+            <p class="blog-text">
+              The latest news and techniques in the world of software development.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <!-- contact.jinja -->
+<article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+    <figure>
+    <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15612.816237900746!2d-77.07912445467241!3d-11.960369208845579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce21b6748c45%3A0xece5fa25a5e8c4d5!2sLos%20Olivos!5e0!3m2!1ses-419!2spe!4v1723436398614!5m2!1ses-419!2spe"
+  width="600" 
+  height="450" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+    </figure>
+  </section>
+
+  <section class="contact-form">
+
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form action="mailto:montufarbe@gmail.com" method="POST" class="form" data-form>
+
+      <div class="input-wrapper">
+        <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+        <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+      </div>
+
+      <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+      <button class="form-btn" type="submit" disabled data-form-btn>
+        <ion-icon name="paper-plane"></ion-icon>
+        <span>Send Message</span>
+      </button>
+
+    </form>
+
+  </section>
+
+</article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./src/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+############## Education config #################
+#################################################
+
+[[education]]
+title = "Bachelor's Degree in Systems Engineering and Computer Science"
+timeline = "2020 — Present"
+description = "Universidad de Ciencias y Humanidades (UCH) – Lima, Peru. Current 9th semester student, Top 10%."
+
+[[education]]
+title = "Full Stack Developer with JavaScript"
+timeline = "August 2022 — August 2023"
+description = "Completed a comprehensive Full Stack Development course with JavaScript through Platzi, covering both frontend and backend web development."
+
+############## Experience config ################
+#################################################
+
+[[experience]]
+title = "Junior Full Stack Developer at UCH"
+timeline = "April 2024 — December 2024"
+description = "Developed the backend and frontend of an internal project using Python, Flask, React, MongoDB Atlas, and AWS, creating an integrated solution for visualizing and managing research data. Designed and implemented RESTful APIs with Flask for data management and developed dynamic frontend interfaces using React, enabling smooth interaction with the backend. Integrated the Scopus API, creating an interactive slider to dynamically display researcher data, enhancing data visualization and accessibility."
+
+[[experience]]
+title = "Freelance Python Developer at Wasiiki Inversiones"
+timeline = "August 2024 — November 2024"
+description = "Developed an automated system to analyze and classify PDF documents, reducing manual review time by 95% and allowing the analysis of two months' worth of documents in just 3 hours. Improved document relevance identification, reducing errors by 80% through the application of AI-based filters."
+
+[[experience]]
+title = "Junior Full Stack Developer at Promolider Org Sac"
+timeline = "February 2024 — April 2024"
+description = "Designed and developed a chatbot interface in Figma, integrating it into an existing website using Vue.js, ensuring design consistency and interactive functionality. Debugged critical errors in the Laravel and Vue.js codebase of the website, improving overall stability and user experience. Configured RESTful routes in Laravel and developed Vue.js components to optimize chatbot integration with the backend."
+
+############## Skills config ####################
+#################################################
+[skills] 
+title = "My Skills"
+enabled = true
+show_bar = true
+show_value = true
+
+[[skill]]
+title = "Web Development"
+value = "100%"
+
+[[skill]]
+title = "API Consumption"
+value = "85%"
+
+[[skill]]
+title = "Python"
+value = "80%"
+
+[[skill]]
+title = "Full Stack Development"
+value = "80%"
+
+[[skill]]
+title = "React"
+value = "75%"
+
+[[skill]]
+title = "Artificial Intelligence"
+value = "70%"
+
+############## Language config ##################
+#################################################
+[languages]
+title = "Languages"
+enabled = true
+show_bar = true
+show_value = true
+
+[[language]]
+title = "Spanish"
+value = "100%"
+
+[[language]]
+title = "English"
+value = "30%"
+

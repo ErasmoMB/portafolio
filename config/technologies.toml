@@ -1,0 +1,15 @@
+############### Section config ##################
+#################################################
+title = "Technological Experience"
+enabled = true # true
+
+############### Technologies ####################
+#################################################
+# Technologies I have worked with
+# name = "./.../../icon_path"
+[technologies]
+python = "./config/assets/icons/python.svg"
+react = "./config/assets/icons/react.png"
+mongodb = "./config/assets/icons/mongodb.svg"
+aws = "./config/assets/icons/aws.png"
+

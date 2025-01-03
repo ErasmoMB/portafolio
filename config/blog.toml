@@ -1,0 +1,47 @@
+[[post]]
+category = "Research"
+title = "Research Conferences in 2024"
+subtitle = "Exploring the latest advances in technology and applied science."
+datetime = "2024-07-10"
+image = "./config/assets/posts/investigacion-1.jpg"
+url = "https://medium.com"
+
+[[post]]
+category = "Development"
+title = "Best Tools for Developers"
+subtitle = "Discover the essential tools to boost productivity in software development."
+datetime = "2024-07-15"
+image = "./config/assets/posts/desarrollo-1.jpg"
+url = "https://dev.to"
+
+[[post]]
+category = "Computer Vision"
+title = "Latest Trends in Computer Vision"
+subtitle = "An in-depth analysis of modern applications of computer vision across various industries."
+datetime = "2024-08-01"
+image = "./config/assets/posts/vision-artificial-1.jpg"
+url = "https://hashnode.com"
+
+[[post]]
+category = "Voice Recognition"
+title = "Voice Interactions of the Week"
+subtitle = "Exploring how voice recognition technology is transforming user interaction."
+datetime = "2024-08-05"
+image = "./config/assets/posts/reconocimiento-voz-1.jpg"
+url = "https://dev.to"
+
+[[post]]
+category = "Research"
+title = "The Forgotten Art of Optimization"
+subtitle = "Strategies to optimize systems and resources in advanced technological projects."
+datetime = "2024-08-10"
+image = "./config/assets/posts/investigacion-2.jpg"
+url = "https://medium.com"
+
+[[post]]
+category = "Development"
+title = "Development Digest #79"
+subtitle = "The latest news and techniques in the world of software development."
+datetime = "2024-08-15"
+image = "./config/assets/posts/desarrollo-2.jpg"
+url = "https://hashnode.com"

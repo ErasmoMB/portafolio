@@ -1,0 +1,19 @@
+[[doing]]
+title = "Full Stack Development"
+icon = "./config/assets/icons/code.png"
+text = "I currently work as a Full Stack developer, managing both the frontend and backend."
+
+[[doing]]
+title = "API consumption"
+icon = "./config/assets/icons/apirest.png"
+text = "I have experience in consuming and managing APIs, which allows me to integrate web applications with external services efficiently."
+
+[[doing]]
+title = "Artificial Intelligence"
+icon = "./config/assets/icons/ia.png"
+text = "I specialize in Python for artificial intelligence solutions, including virtual assistants and machine learning."
+
+[[doing]]
+title = "Cybersecurity with Python"
+icon = "./config/assets/icons/hacking.png"
+text = "Estoy ampliando mis conocimientos en ciberseguridad, enfocado en el uso de Python para proteger aplicaciones y sistemas."

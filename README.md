@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 style="border-bottom: none">
+    <b><a href="https://ivansaul.github.io/personal-portfolio">Personal Portfolio - Developer</a></b>
+</h1>
 
-## Available Scripts
+**`Personal Portfolio`** is a fully responsive personal developer portfolio single-page website, <br/>
+responsive for all devices, built using **`HTML`**, **`CSS`**, **`JavaScript`**, and **`Python`**.
 
-In the project directory, you can run:
+![Made-with-python](https://img.shields.io/badge/Made%20with-Python-orange)
+[![Jinja](https://github.com/ivansaul/personal-portfolio/actions/workflows/jinja.yml/badge.svg)](https://github.com/ivansaul/personal-portfolio/actions/workflows/jinja.yml)
+![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/personal-portfolio)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### `npm start`
+![GitHub stars][github-stars]
+![GitHub forks][github-forks]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://discord.gg/tDvybtJ7y9">
+    <img alt="Discord Server" height="50" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg">
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
 
-### `npm run build`
+![Demo][demo]
+**`Live Demo:`** 👉🏽 [personal-portfolio.github.io][devfolio]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **How to make it yours?**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Step 1
 
-### `npm run eject`
+Fork this project and rename the repo to `your_github_username.github.io`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> [!IMPORTANT]
+> For example, if your GitHub username is `ivansaul`. Rename the repository to `ivansaul.github.io`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Step 2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Enable GitHub Pages on:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`Repository(Settings) > Pages > Build and deployment > Source(GitHub Actions)`
 
-## Learn More
+### Step 3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Enable workflows:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`Repository(Actions) > I understand my workflows, go ahead and enable them`
 
-### Code Splitting
+### Step 4
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to the `config/` folder and replace the default data with your personal information.
 
-### Analyzing the Bundle Size
+```bash
+config
+|-- assets
+|   |-- avatars
+|   |-- icons
+|   |-- posts
+|   |-- projects
+|-- about.toml
+|-- blog.toml
+|-- softskills.toml
+|-- doing.toml
+|-- projects.toml
+|-- resume.toml
+|-- social.toml
+|-- technologies.toml
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For example, to set your contact information, edit `config/about.toml`.
 
-### Making a Progressive Web App
+```toml
+name = "Richard hanrick"
+rol = "Flutter Developer"
+email = "richard@example.com"
+phone = "+1 (213) 352-2795"
+birthday = "June 26, 1996"
+location = "Sacramento, California, USA"
+avatar = "./path/to/my-avatar.png"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+> [!TIP]
+> You can upload your images directly to the `config/assets` folder or use an image server like [Imgur][imgur]. Both options are valid for customizing your portfolio. For example:
+>
+> `avatar = "https://i.imgur.com/H5gx7JF.png"`
+>
+> `avatar = "./config/assets/avatars/my-avatar.png"`
 
-### Advanced Configuration
+### Step 5: Enjoy 😉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Now you can visit your portfolio at `https://your_github_username.github.io`
 
-### Deployment
+Your personal portfolio will be built and updated automatically whenever any changes occur in the configuration files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> [!NOTE]
+> If you like my work and want to show some ❤️, please consider giving a ⭐️ to this Repository.
 
-### `npm run build` fails to minify
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Desktop Demo][desktop-screenshot]
+![Mobile Demo][mobile-screenshot]
+
+## Contribute
+
+Contributions are welcome.
+
+## Facing any Issue?
+
+Feel free to open an [Issue][issue] :)
+
+## Contact
+
+If you want to contact me you can reach me at [Discord][discord].
+
+## Credits
+
+This project is based on [vcard portfolio][vcard]. The main focus of this project is adding new features and make it accessible to everyone.
+
+## License
+
+MIT
+
+[vcard]: https://github.com/codewithsadee/vcard-personal-portfolio
+[devfolio]: https://ivansaul.github.io/personal-portfolio
+[demo]: https://raw.githubusercontent.com/ivansaul/demos/master/python/personal-portfolio-demo.gif
+[discord]: https://discord.com/users/744755977684779038
+[issue]: https://github.com/ivansaul/personal-portfolio/issues
+[github-stars]: https://img.shields.io/github/stars/ivansaul/personal-portfolio?style=social
+[github-forks]: https://img.shields.io/github/forks/ivansaul/personal-portfolio?style=social
+[desktop-screenshot]: https://i.imgur.com/xKkMSwR.png
+[mobile-screenshot]: https://i.imgur.com/G1A1nBu.png
+[imgur]: https://imgur.com
