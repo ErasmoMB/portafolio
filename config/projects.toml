@@ -12,7 +12,7 @@ url = "https://github.com/ErasmoMontufar/virtual_assistant_ai"
 
 [[project]]
 title = "CRUD System with Flask and MongoDB"
-category = "Cybersecurity"
+category = "Machine Learning"
 image = "https://imgur.com/7110Lj1.png"
 url = "https://github.com/ErasmoMontufar/crud_flask_mongodb"
 
@@ -24,7 +24,7 @@ url = "https://github.com/ErasmoMontufar/finance_web_app"
 
 [[project]]
 title = "Task Management System"
-category = "Applications"
+category = "Backend Development"
 image = "./config/assets/projects/project-8.jpg"
 url = "https://github.com/ErasmoMontufar/task_manager_app"
 
